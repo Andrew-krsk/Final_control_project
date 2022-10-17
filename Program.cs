@@ -42,7 +42,7 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
-Console.WriteLine();
+
 int size = AmountOfElements();
 string[] arrayStrings = FillArray(size);
 string[] finalArray = FinalArray(arrayStrings, 3, size);
